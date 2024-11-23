@@ -1,0 +1,11 @@
+src
+       appp
+            user
+                  user.components.ts/ html
+                  login(Folder)
+                  registration(Folder)
+        shared
+             pipes
+                 first-key.pipe.ts
+             services
+                 auth.services.ts

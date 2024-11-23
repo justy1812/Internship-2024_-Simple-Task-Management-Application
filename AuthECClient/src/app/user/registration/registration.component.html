@@ -1,0 +1,28 @@
+<div class="mb-4 h2 text-success">
+    Đăng ký
+</div>
+<form  [formGroup]="form"(ngSubmit)="onSubmit()">
+    <div class="mb-3">
+        <input class="form-control bg-body-secodary"
+         placeholder="Full Name" formControlName="fullName">
+        
+         </div>
+        
+        <div class="mb-3">
+            <input class="form-control bg-body-secodary"
+             placeholder="Email" formControlName="email">
+            </div>
+            <div class="mb-3">
+                <input class="form-control bg-body-secodary"
+                 placeholder="Password" formControlName="password">
+                </div>
+                <div class="mb-3">
+                    <input class="form-control bg-body-secodary"
+                     placeholder="Confirm password" formControlName="confirmPassword">
+                    </div>
+                    <div class="mt-4">
+                        <button type="submit" class="btn btn-success w-100 rounded-3">
+                            Đăng ký tài khoản
+                        </button>
+    </div>
+</form>
